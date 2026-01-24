@@ -22,6 +22,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <div className="grid grid-cols-2 absolute w-90/200 h-1/15 bg-slate-600 m-10">
+          
+        </div>
+
         {children}
       </body>
     </html>
