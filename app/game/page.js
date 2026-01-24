@@ -15,15 +15,20 @@ export default function Page(){
 
     return(
         <div className="flex flex-col h-screen w-full absolute">
-          <div className="grid grid-cols-2 gap-20 bg-[#B87A00] h-3/5 pt-10 px-10 pb-10">
-            <div className="bg-slate-200 text-black rounded-t-3xl">
+          <div className="flex flex-row gap-20 bg-[#B87A00] h-3/5 pt-10 px-10 pb-10">
+            <div className="flex flex-col h-screen w-1/2">
               <div className="h-1/10">
                 <Header/>
               </div>
-              DESCRIPTION
+              <div>
+                DESCRIPTION
+              </div>
             </div>
-            <CodeBlock code={problemCode}/>
+            <div className="flex flex-col h-screen w-1/2">
+              <CodeBlock code={problemCode}/>
+            </div>
           </div>
+
           <div className="grid grid-cols-2 bg-[#FFCF60] h-2/5">
             RENDER
           </div>
