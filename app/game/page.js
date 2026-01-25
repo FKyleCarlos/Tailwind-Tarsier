@@ -10,6 +10,7 @@ import Problem2 from "../levels/problem2";
 import Problem3 from "../levels/problem3";
 import Problem1Description from "@/app/levelDescriptions/problem1Description";
 import Problem2Description from "@/app/levelDescriptions/problem2Description";
+import Problem3Description from "@/app/levelDescriptions/problem3Description";
 
 export default function Page(){
 
